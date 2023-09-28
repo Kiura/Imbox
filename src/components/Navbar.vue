@@ -26,6 +26,5 @@ import { RouterLink } from "vue-router";
 
 async function copyEmail() {
   await navigator.clipboard.writeText(imbox.email);
-  alert("Email copied to clipboard");
 }
 </script>
